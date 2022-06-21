@@ -1,0 +1,68 @@
+{
+  "formatVersion": "1.0",
+  "tables": [
+    {
+      "name": "todos",
+      "columns": [
+        {
+          "name": "message",
+          "type": "string"
+        },
+        {
+          "name": "is_done",
+          "type": "bool"
+        },
+        {
+          "name": "created_at",
+          "type": "string"
+        },
+        {
+          "name": "user",
+          "type": "link",
+          "link": {
+            "table": "users"
+          }
+        }
+      ]
+    },
+    {
+      "name": "users",
+      "columns": [
+        {
+          "name": "password",
+          "type": "string"
+        },
+        {
+          "name": "username",
+          "type": "email"
+        }
+      ]
+    },
+    {
+      "name": "dinner",
+      "columns": [
+        {
+          "name": "cuisine",
+          "type": "text"
+        },
+        {
+          "name": "dish",
+          "type": "text"
+        }
+      ]
+    },
+    {
+      "name": "lunch",
+      "columns": [
+        {
+          "name": "dish",
+          "type": "string"
+        },
+        {
+          "name": "cuisine",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

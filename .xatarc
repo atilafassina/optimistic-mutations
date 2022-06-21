@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://demos-urucbe.xata.sh/db/donex",
+  "codegen": {
+    "output": "app/lib/xata.codegen.ts"
+  }
+}
